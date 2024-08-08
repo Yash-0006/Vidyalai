@@ -22,5 +22,5 @@ async function fetchPosts(params) {
 
   return posts;
 }
-
-module.exports = { fetchPosts };
+// Route to fetch user are https://jsonplaceholder.typicode.com/users/:userId
+module.exports = { fetchPosts};
